@@ -1,6 +1,15 @@
 """Tests for statistics functions within the Model layer."""
 
 import pandas as pd
+import pytest
+
+def test_max_mag_strings():
+    # Test for TypeError when passing a string
+    from lcanalyzer.models import max_mag
+
+    test_input_colname = "b"
+    with pytest.raises(TypeError):
+        error_expected = max_mag('string', test_input_colname)
 
 def test_max_mag_integers():
     # Test that max_mag function works for integers

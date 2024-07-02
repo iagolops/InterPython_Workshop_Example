@@ -46,6 +46,7 @@ fonttools==4.49.0
 fqdn==1.5.1
 h5py==3.10.0
 idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1663625384323/work
+iniconfig==2.0.0
 ipykernel==6.29.2
 ipython==8.21.0
 ipython-genutils==0.2.0
@@ -107,7 +108,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==10.1.0
 platformdirs==4.2.0
-pluggy @ file:///home/conda/feedstock_root/build_artifacts/pluggy_1693086607691/work
+pluggy==1.5.0
 prometheus-client==0.17.1
 prompt-toolkit==3.0.43
 psutil==5.9.8
@@ -125,6 +126,7 @@ pylint==3.2.5
 pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1685514481738/work
 pyparsing==3.1.1
 PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1661604839144/work
+pytest==8.2.2
 python-dateutil==2.8.2
 python-json-logger==2.0.7
 pytz==2023.3.post1
